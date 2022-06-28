@@ -1,6 +1,6 @@
 var currentTime = new Date().getHours();
 if (document.body) {
-    if (7 <= currentTime && currentTime < 22) {
+    if (7 <= currentTime && currentTime < 19) {
         document.body.background = "/images/Sunrise.jpg";
     }
     else {

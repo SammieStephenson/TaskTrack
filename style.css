@@ -1,7 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: "didot", sans-serif;
+    font-family: "Monaco", sans-serif;
 }
 
 /* body {
@@ -22,7 +22,7 @@ header {
 header h1 {
     font-size: 2.5rem;
     font-weight: 300;
-    color: aqua;
+    color: rgb(0, 230, 153);
     margin-bottom: 1rem;
 }
 
@@ -41,7 +41,7 @@ button {
 
 #new-task-input {
     flex: 1 1 0%;
-    background-color: lightcyan);
+    background-color: lightcyan;
     padding: 1rem;
     border-radius: 1rem;
     margin-right: 1rem;
@@ -57,7 +57,7 @@ button {
     color: green;
     font-size: 1.25rem;
     font-weight: 700;
-    background-image: linear-gradient(to right, aquamarine, green);
+    background-color: green;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
@@ -112,7 +112,7 @@ main {
 }
 
 .task .content .text:not(:read-only) {
-    color: aqua;
+    color: green;
 }
 
 .task .actions {
@@ -138,7 +138,7 @@ main {
 }
 
 .task .actions .edit {
-    background-image: linear-gradient(to right, aqua, green);
+    background-color: green;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
